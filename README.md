@@ -51,7 +51,10 @@ export default function MikuCursorClient() {
 
 ```
 
-In app/layout.tsx, import the wrapper (not the package directly):
+In app/layout.tsx, 
+
+import the wrapper (not the package directly):
+
 import MikuCursorClient from "./MikuCursorClient";
 and render:
 
@@ -62,5 +65,5 @@ and render:
 ## Notes
 
 - React 18+ required.
-- Designed for pointer devices; it is hidden on coarse pointers.
-- Native form controls keep native cursor behavior.
+
+
