@@ -1,6 +1,26 @@
-# miku-cursor-kit
+# miku-cursor-kit    <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/ccce0109-ca2f-471c-a804-ec693c420303" />
+
 
 Standalone React cursor package
+
+## Samples pics
+
+### Site 1
+
+<img width="815" height="575" alt="image" src="https://github.com/user-attachments/assets/c478f4d0-67f5-4b39-9db5-cd4b3b3eaef0" />
+
+### Site 2
+
+<img width="1331" height="696" alt="image" src="https://github.com/user-attachments/assets/04bcae3f-92df-4953-897a-c59e85a6b72a" />
+
+<img  width="50">
+
+
+<img width="1249" height="547" alt="image" src="https://github.com/user-attachments/assets/df5c1139-8760-4f5a-9680-bb385c49b013" />
+
+
+
+
 
 ## Install
 
