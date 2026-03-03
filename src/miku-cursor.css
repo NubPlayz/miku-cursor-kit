@@ -1,0 +1,64 @@
+html.miku-cursor-kit-active,
+html.miku-cursor-kit-active body,
+html.miku-cursor-kit-active * {
+  cursor: none !important;
+}
+
+.miku-cursor-kit {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 70px;
+  z-index: 2147483647;
+  pointer-events: none;
+  opacity: 0;
+  will-change: transform, opacity;
+  transition: opacity 0.14s ease-out;
+}
+
+.miku-cursor-kit.is-native {
+  opacity: 0 !important;
+}
+
+.miku-cursor-kit-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform-origin: 33px 5px;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  backface-visibility: hidden;
+  transition: opacity 0.18s ease, transform 0.12s ease;
+}
+
+.miku-cursor-kit-layer-hover {
+  opacity: 0;
+}
+
+.miku-cursor-kit.is-hover .miku-cursor-kit-layer-default {
+  opacity: 0;
+}
+
+.miku-cursor-kit.is-hover .miku-cursor-kit-layer-hover {
+  opacity: 1;
+}
+
+.miku-cursor-kit.is-down .miku-cursor-kit-layer {
+  transform: scale(0.95);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .miku-cursor-kit,
+  .miku-cursor-kit-layer {
+    transition: none;
+  }
+}
+
+@media (pointer: coarse) {
+  .miku-cursor-kit {
+    display: none;
+  }
+}

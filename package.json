@@ -1,0 +1,27 @@
+{
+  "name": "miku-cursor-kit",
+  "version": "1.0.0",
+  "description": "Standalone Miku cursor component for React apps.",
+  "type": "module",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./styles": "./src/miku-cursor.css"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "keywords": [
+    "miku",
+    "cursor",
+    "react",
+    "ui"
+  ],
+  "license": "MIT"
+}
