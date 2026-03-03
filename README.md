@@ -13,7 +13,7 @@ pnpm add ./miku-cursor-kit
 # From GitHub
 
 ```bash
-
+pnpm add github:NubPlayz/miku-cursor-kit
 ```
 
 # npm
