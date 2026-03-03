@@ -71,11 +71,11 @@ export default function MikuCursorClient() {
 
 ```
 
-In app/layout.tsx, 
-
-import the wrapper (not the package directly):
-
+In app/layout.tsx,  import the wrapper (not the package directly):
+```jsx 
 import MikuCursorClient from "./MikuCursorClient";
+```
+
 and render:
 
 ```jsx
