@@ -1,8 +1,11 @@
+'use client';
+
 import { useEffect, useRef } from 'react';
 import './miku-cursor.css';
 import cursorDefault from './assets/cursor-default-hd.png';
 import cursorHover from './assets/cursor-hover-hd.png';
 
+type StaticImageImport = string | { src: string };
 
 const CLICKABLE_SELECTOR = [
   'a[href]',
@@ -39,22 +42,26 @@ const NATIVE_CURSOR_SELECTOR = [
   '[data-native-cursor="true"]'
 ].join(', ');
 
-function isClickableTarget(target) {
+function resolveImageSrc(image: StaticImageImport): string {
+  return typeof image === 'string' ? image : image.src;
+}
+
+function isClickableTarget(target: Element | null): boolean {
   if (!(target instanceof HTMLElement)) return false;
   const candidate = target.closest(CLICKABLE_SELECTOR);
   if (!candidate) return false;
-  if ('disabled' in candidate && candidate.disabled) return false;
+  if ('disabled' in candidate && (candidate as HTMLButtonElement).disabled) return false;
   if (candidate.getAttribute('aria-disabled') === 'true') return false;
   return getComputedStyle(candidate).pointerEvents !== 'none';
 }
 
-function isNativeCursorTarget(target) {
+function isNativeCursorTarget(target: Element | null): boolean {
   if (!(target instanceof HTMLElement)) return false;
   return Boolean(target.closest(NATIVE_CURSOR_SELECTOR));
 }
 
 export function MikuCursor() {
-  const cursorRef = useRef(null);
+  const cursorRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const cursor = cursorRef.current;
@@ -72,11 +79,11 @@ export function MikuCursor() {
     const hotspotY = 5;
     let usingNativeCursor = false;
 
-    const setHoverState = isHover => {
+    const setHoverState = (isHover: boolean) => {
       cursor.classList.toggle('is-hover', isHover);
     };
 
-    const syncHoverState = (x, y) => {
+    const syncHoverState = (x: number, y: number) => {
       const element = document.elementFromPoint(x, y);
       usingNativeCursor = isNativeCursorTarget(element);
       cursor.classList.toggle('is-native', usingNativeCursor);
@@ -89,7 +96,7 @@ export function MikuCursor() {
       setHoverState(isClickableTarget(element));
     };
 
-    const onMouseMove = event => {
+    const onMouseMove = (event: MouseEvent) => {
       targetX = event.clientX;
       targetY = event.clientY;
       syncHoverState(event.clientX, event.clientY);
@@ -139,12 +146,12 @@ export function MikuCursor() {
   return (
     <div ref={cursorRef} className="miku-cursor-kit" aria-hidden="true">
       <img
-        src={cursorDefault?.src || cursorDefault}
+        src={resolveImageSrc(cursorDefault as StaticImageImport)}
         alt=""
         className="miku-cursor-kit-layer miku-cursor-kit-layer-default"
       />
       <img
-        src={cursorHover?.src || cursorHover}
+        src={resolveImageSrc(cursorHover as StaticImageImport)}
         alt=""
         className="miku-cursor-kit-layer miku-cursor-kit-layer-hover"
       />

@@ -1,18 +1,30 @@
 {
   "name": "miku-cursor-kit",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "A standalone Miku themed custom cursor component for React 18+ apps.",
   "type": "module",
-  "main": "./src/index.js",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
-    ".": "./src/index.js",
-    "./styles": "./src/miku-cursor.css"
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./styles": "./dist/miku-cursor.css"
   },
   "files": [
-    "src",
+    "dist",
     "README.md",
     "LICENSE"
   ],
+  "scripts": {
+    
+    "build": "tsup src/index.ts --format esm,cjs --dts --clean --loader .png=dataurl --loader .css=copy",
+
+    "prepare": "pnpm build"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/NubPlayz/miku-cursor-kit.git"
@@ -38,5 +50,11 @@
     "react": ">=18",
     "react-dom": ">=18"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
 }
