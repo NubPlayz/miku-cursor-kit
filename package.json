@@ -1,6 +1,6 @@
 {
   "name": "miku-cursor-kit",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "description": "A standalone Miku themed custom cursor component for React 18+ apps.",
   "type": "module",
   "main": "./dist/index.cjs",
