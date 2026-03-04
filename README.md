@@ -5,6 +5,7 @@
 ![typescript](https://img.shields.io/badge/TypeScript-ready-3178C6?logo=typescript&logoColor=white)
 ![react](https://img.shields.io/badge/React-Component-61DAFB?logo=react&logoColor=black)
 ![nextjs](https://img.shields.io/badge/Next.js-compatible-black?logo=nextdotjs)
+![Vite](https://img.shields.io/badge/Vite-%23646CFF.svg?logo=vite&logoColor=white)
 ![pnpm](https://img.shields.io/badge/pnpm-supported-F69220?logo=pnpm&logoColor=orange)
 ![MIT License](https://img.shields.io/badge/license-MIT-green)
 ![Hatsune Miku](https://img.shields.io/badge/Hatsune-Miku-39C5BB)
@@ -13,9 +14,9 @@
 ![Anime UI](https://img.shields.io/badge/Anime-UI-ff69b4)
 
 
-Standalone React cursor package
+# Standalone React cursor package
 
-## Samples pics
+### Samples pics
 
 ### Site 1
 
