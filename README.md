@@ -15,8 +15,6 @@
 
 
 
-Standalone React cursor package
-=======
 
 
 # Standalone React cursor package
