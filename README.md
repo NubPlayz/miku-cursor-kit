@@ -103,6 +103,14 @@ and render:
 <MikuCursorClient />
 ```
 
+
+## npm link
+
+https://www.npmjs.com/package/miku-cursor-kit
+
+<img width="1018" height="860" alt="image" src="https://github.com/user-attachments/assets/f9ef4e62-6d54-471b-a058-a793d89ce8c4" />
+
+
 ## Notes
 
 - React 18+ required.
