@@ -1,5 +1,17 @@
 # miku-cursor-kit    <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/ccce0109-ca2f-471c-a804-ec693c420303" />
 
+![npm version](https://img.shields.io/npm/v/miku-cursor-kit?color=cb0000&label=npm)
+![license](https://img.shields.io/npm/l/miku-cursor-kit)
+![typescript](https://img.shields.io/badge/TypeScript-ready-3178C6?logo=typescript&logoColor=white)
+![react](https://img.shields.io/badge/React-Component-61DAFB?logo=react&logoColor=black)
+![nextjs](https://img.shields.io/badge/Next.js-compatible-black?logo=nextdotjs)
+![pnpm](https://img.shields.io/badge/pnpm-supported-F69220?logo=pnpm&logoColor=orange)
+![MIT License](https://img.shields.io/badge/license-MIT-green)
+![Hatsune Miku](https://img.shields.io/badge/Hatsune-Miku-39C5BB)
+![Vocaloid](https://img.shields.io/badge/Vocaloid-Miku-ff66cc)
+![Miku Cursor](https://img.shields.io/badge/Miku-Cursor-00d1b2)
+![Anime UI](https://img.shields.io/badge/Anime-UI-ff69b4)
+
 
 Standalone React cursor package
 
