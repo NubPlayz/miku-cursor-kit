@@ -13,11 +13,11 @@
 ![Miku Cursor](https://img.shields.io/badge/Miku-Cursor-00d1b2)
 ![Anime UI](https://img.shields.io/badge/Anime-UI-ff69b4)
 
-<<<<<<< HEAD
+
 
 Standalone React cursor package
 =======
->>>>>>> 2b1a06c0c5cd84be3331fa980cb31b6245af714b
+
 
 # Standalone React cursor package
 
