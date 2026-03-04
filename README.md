@@ -1,6 +1,7 @@
 # miku-cursor-kit    <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/ccce0109-ca2f-471c-a804-ec693c420303" />
 
 
+
 Standalone React cursor package
 
 ## Samples pics
