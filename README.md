@@ -108,7 +108,8 @@ and render:
 
 https://www.npmjs.com/package/miku-cursor-kit
 
-<img width="1018" height="860" alt="image" src="https://github.com/user-attachments/assets/f9ef4e62-6d54-471b-a058-a793d89ce8c4" />
+<img width="1118" height="824" alt="image" src="https://github.com/user-attachments/assets/09cc46db-bd26-40ad-92f5-c104781e95c9" />
+
 
 
 ## Notes
