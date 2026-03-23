@@ -14,8 +14,17 @@
 ![Anime UI](https://img.shields.io/badge/Anime-UI-ff69b4)
 
 
+## Live demo
 
+ To check the custom cursor live,  i have added a link to one of my site that i have added this cursor .
+ 
+ (also in the description box ) 
+ 
+```
+ https://goodlib.vercel.app
+```
 
+like what you saw ? you can have it too! read the full docs to know how . 
 
 # Standalone React cursor package
 
