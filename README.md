@@ -2,7 +2,7 @@
 
 ![npm version](https://img.shields.io/npm/v/miku-cursor-kit?color=cb0000&label=npm)
 ![license](https://img.shields.io/npm/l/miku-cursor-kit)
-![Stars](https://img.shields.io/github/stars/NubPlayz/GoodLib-Zlib-Goodreads-extension?style=social)
+![Stars](https://img.shields.io/github/stars/NubPlayz/miku-cursor-kit?style=social)
 
 
 ![typescript](https://img.shields.io/badge/TypeScript-ready-3178C6?logo=typescript&logoColor=white)
