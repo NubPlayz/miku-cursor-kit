@@ -2,8 +2,8 @@
 
 import { useEffect, useRef } from 'react';
 import './miku-cursor.css';
-import cursorDefault from './assets/cursor-default-hd.png';
-import cursorHover from './assets/cursor-hover-hd.png';
+import cursorDefault from './assets/Miku cursor normal.png';
+import cursorHover from './assets/Miku hover cursor.png';
 
 type StaticImageImport = string | { src: string };
 
