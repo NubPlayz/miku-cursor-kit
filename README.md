@@ -21,15 +21,15 @@
 
  To check the custom cursor live,  i have added a link to one of my site that i have added this cursor .
  
- (also in the description box ) 
+
  
-```
+
  https://goodlib.vercel.app
-```
 
-like what you saw ? you can have it too! read the full docs to know how . 
 
-# Standalone React cursor package
+```like what you saw ? you can have it too! read the full docs to know how . ```
+
+# Standalone React cursor package OR .Cur files (Itch.io link below)
 
 ### Samples pics
 
@@ -55,21 +55,45 @@ like what you saw ? you can have it too! read the full docs to know how .
 
 
 
-## Install
+# Install
 
-# Local folder (assuming you cloned my repo)
+## For users (itch.io link)
+
+itch.io link -  https://nubplayz.itch.io/miku-mouse-cursor
+
+Instructions on how to install .Cur files on Win:
+
+```
+1. download the zip and extract it
+
+2. go to accessibility in settings 
+
+3. in accessibility , go to  mouse and pointer touch
+
+4. click customize pointer image 
+
+5. there change the normal select and link select to the files provided
+
+```
+<img width="1885" height="840" alt="image" src="https://github.com/user-attachments/assets/978ee1e6-c5b8-4ccb-92b6-0e54645c7e50" />
+
+
+# For Devs ( 3 diff installions ways , to get the same cursor but animated on their site only  )
+
+
+## Local folder (assuming you cloned my repo)
 
 ```bash
 pnpm add ./miku-cursor-kit
 ```
 
-# From GitHub
+## From GitHub
 
 ```bash
 pnpm add github:NubPlayz/miku-cursor-kit
 ```
 
-# npm
+## npm
 
 ```bash
 pnpm add miku-cursor-kit
