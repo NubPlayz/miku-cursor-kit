@@ -75,7 +75,8 @@ Instructions on how to install .Cur files on Win:
 5. there change the normal select and link select to the files provided
 
 ```
-<img width="1885" height="840" alt="image" src="https://github.com/user-attachments/assets/978ee1e6-c5b8-4ccb-92b6-0e54645c7e50" />
+<img width="900" height="520" alt="HoloTile (15)" src="https://github.com/user-attachments/assets/0ed7db7d-9175-4082-9377-1f5898173d0d" />
+
 
 
 # For Devs ( 3 diff installions ways , to get the same cursor but animated on their site only  )
